@@ -2,14 +2,14 @@
 
 ## Introduction
 
-This little guide demonstrate how to turn any [Github](http://github.com) repository with a bunch of [Markdown](https://en.wikipedia.org/wiki/Markdown) files into a simple website using [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
+This little guide demonstrates how to turn any [Github](http://github.com) repository with a bunch of [Markdown](https://en.wikipedia.org/wiki/Markdown) files into a simple website using [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
 
 * You don't need to use the command line or anything other than your browser.
 * It doesn't require any knowledge in Jekyll.
 * It's completely compatible with any bunch of markdown files you already have in any existing repository without any modification to those files. That includes the basic `README.md` almost all repositories contain.
 * The markdown files will remain just as readable and usable in Github than in your website.
 
-In fact this guide uses the same configuration and can be read both in Github and in Github Pages, at your preference:
+In fact, this guide uses the same configuration and can be read both in Github and in Github Pages, at your preference:
 
 * [Here is the link to the Github version](https://github.com/nicolas-van/easy-markdown-to-github-pages)
 * [Here is the link to the Github Pages version](https://nicolas-van.github.io/easy-markdown-to-github-pages/)
@@ -18,9 +18,9 @@ In fact this guide uses the same configuration and can be read both in Github an
 
 ### Determine the repository where you want to activate Github Pages
 
-You can of course create a new repository if you want.
+You can, of course, create a new repository if you want.
 
-### Create the `_.config.yml` file
+### Create the `_config.yml` file
 
 That file should be created on the root of your repository. Here is some content to copy-paste in it:
 
@@ -57,7 +57,7 @@ You must also choose a theme:
 
 ![](./printscreen3.png)
 
-That's it! Now you can juste use the link provided by Github to access you website:
+That's it! Now you can just use the link provided by Github to access your website:
 
 ![](./printscreen4.png)
 
@@ -65,7 +65,7 @@ That's it! Now you can juste use the link provided by Github to access you websi
 
 * Any markdown file in your repository will display in your Github Pages website. You just have to use the same path to access it and replace the `.md` extension by `.html`.
 * To make links between your Markdown files just use a relative path to the other Markdown file. The configuration you copy pasted in your `_config.yml` provides a plugin to convert those URLs. So your Markdown files will have correct links both in Github and Github Pages.
-* The index page of your website can be a `index.md` file or a `README.md` file. If both exists the `index.md` file has priority.
+* The index page of your website can be a `index.md` file or a `README.md` file. If both exist the `index.md` file has priority.
 * You should be able to use any [Github Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ## Known differences between Github and Github Pages
